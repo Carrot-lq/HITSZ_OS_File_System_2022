@@ -6,6 +6,9 @@
         "ioctl.h": "c",
         "sfs.h": "c",
         "ddriver.h": "c",
-        "errno.h": "c"
-    }
+        "errno.h": "c",
+        "types.h": "c",
+        "unistd.h": "c"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/fs/newfs"
 }

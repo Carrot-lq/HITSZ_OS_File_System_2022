@@ -23,5 +23,5 @@
 # 5. 该布局文件用于检查你的文件系统是否符合要求, 请保证你的布局文件中的数据块数量与
 #    实际的数据块数量一致.
 
-| BSIZE = 512 B |
-| Super(1) | Inode Map(1) | DATA(*) |
+| BSIZE = 1024 B |
+| Super(1) | Inode Map(1) | DATA Map(1) | Inode(512) | DATA(2048) |

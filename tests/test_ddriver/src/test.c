@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     int size;
     struct ddriver_state state;
-    int fd = ddriver_open("/home/students/200110132/ddriver");
+    int fd = ddriver_open("/home/students/200110132/ddriver");  // task1 修改驱动路径
     if (fd < 0) {
         return -1;
     }
